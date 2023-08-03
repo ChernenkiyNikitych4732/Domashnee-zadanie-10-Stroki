@@ -4,7 +4,6 @@ public class Main {
         task2();
         task3();
     }
-
     private static void task1() {
         System.out.println("Задача №1");
         System.out.println("Представьте, что вы работаете в небольшой компании. Данные сотрудников хранятся в неструктурированном формате. Бухгалтерия попросила написать программу, в которой  можно работать с Ф. И. О. сотрудников.\n" +
@@ -20,11 +19,13 @@ public class Main {
         String Surname = "Иванов";
         String Name = "Иван";
         String Fathername = "Иванович";
+        Surname = "Черненький";
+        Name = "Никита";
+        Fathername = "Александрович";
         String fullName = Surname + " " + Name + " " + Fathername;
         System.out.print("ФИО сотрудника - " + fullName);
         System.out.println();
     }
-
     private static void task2() {
         System.out.println("Задача №2");
         System.out.println("Решение задачи №2");
@@ -36,10 +37,10 @@ public class Main {
                 "\n" +
                 "Результат программы выведите в консоль в формате: \"Данные ФИО сотрудника для заполнения отчета — …\"");
         String fullName = "Ivanov Ivan Ivanovich";
+        fullName = "Сhernenkiy Nikita Alexandrovich";
         System.out.println("ФИО сотрудника - " + fullName);
         System.out.println("Данные ФИО сотрудника для заполнения отчета - " + fullName.toUpperCase());
     }
-
     private static void task3() {
         System.out.println("Задача №3");
         System.out.println("Система, в которой мы работаем, не принимает символ «ё». Напишите программу, которая заменяет символ «ё» на символ «е».\n" +
